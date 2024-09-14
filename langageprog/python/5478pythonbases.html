@@ -172,7 +172,7 @@
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
               <i class="fa-solid fa-eye"></i>
-              <h4 class="d-none d-lg-block">Affectation de variables</h4>
+              <h4 class="d-none d-lg-block">Les Variables</h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
@@ -184,7 +184,7 @@
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
               <i class="fa-solid fa-question"></i>
-              <h4 class="d-none d-lg-block">Types et Input </h4>
+              <h4 class="d-none d-lg-block"> Input </h4>
             </a>
           </li> 
         </ul>
@@ -250,21 +250,59 @@
           <div class="tab-pane" id="tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Caractéristiques d’une image numérique</h3>
+                <h3>Déclaration de variables</h3>
                 <p class="justifier">
-
-
-                  Les rayons lumineux provenant d'un objet sont projetés dans l'appareil photo sur le <b>capteur
-                    photographique</b>.<br /><br />
-                  Celui-ci est constitué de cellules sensibles à la lumière. <br /><br />
-                  La mesure de l'intensité lumineuse est transformée en données numériques puis stockée dans la mémoire
-                  de l'appareil
-                </p>
+                  Pour déclarer  une variable python il faut lui <b>donner un nom</b><br>
+                              </p>
 
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="./ressources/Appareil_Photo.jpg" alt="" class="img-fluid">
+                <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
+                  <pre>
+                    <code class="langage-python">
+                      # Déclaration de variable
+                      ma_variable            
+                    </code></pre>
+                </div>
+            </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Affectation de variables</h3>
+                  <p class="justifier">
+                   
+                    Pour lui affecter une valeur il faut mettre le <b>nom de la variable = valeur </b>              </p>
+  
+                </div>
+        
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
+                    <pre>
+                      <code class="langage-python">
+                      
+                        # Affecter une valeur à une variable
+                            ma_variable=14                   
+                      </code></pre>
+                  </div>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Type</h3>
+                <p class="justifier">
+                  Python est un langage à <b>typage dynamique</b>, ce qui signifie qu’il n’est pas nécessaire de déclarer les variables avant de pouvoir leur affecter une valeur. <br>
+La valeur que l’on affecte possède un type qui dépend de la nature des données (nombre entier, nombre à virgule, chaîne de caractères, etc.).<br>
+Le type du contenu d’une variable peut donc changer si on change sa valeur.<br>
+
+
+La fonction <b>type()</b> permet de connaître le type 
+                              </p>
+
               </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="ressources/typepythons.jpg" alt="" class="img-fluid">
+            </div>
             </div>
           </div>
           <div class="tab-pane" id="tab-3">
