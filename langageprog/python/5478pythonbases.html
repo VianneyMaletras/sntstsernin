@@ -177,13 +177,13 @@
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-              <i class="fa-solid fa-camera"></i>
+              <i class="fa-solid fa-calculator"></i>
               <h4 class="d-none d-lg-block">Opérations</h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-              <i class="fa-solid fa-question"></i>
+              <i class="fa-solid fa-keyboard"></i>
               <h4 class="d-none d-lg-block"> Input </h4>
             </a>
           </li> 
@@ -308,28 +308,55 @@ La fonction <b>type()</b> permet de connaître le type
           <div class="tab-pane" id="tab-3">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Couleurs</h3>
+                <h3>Opérateurs Mathématiques</h3>
                 <p class="justifier">
-                  Les capteurs photographiques sont des éléments électroniques sensibles à la lumière, qui produisent
-                  des électrons (de l'électricité) lorsqu'ils reçoivent des photons (de la lumière). <br><br />
-                  Un capteur d'appareil photo numérique est composé de cellules photosensibles : <b>les
-                    photosites</b>.<br><br />
-                  Pour que ceux-ci distinguent les couleurs, chacun est placé derrière un filtre qui ne laisse passer
-                  que les rayons d'une seule couleur : rouge, vert ou bleu (2 verts, 1 rouge et un bleu par carré).
-                  <br /><br />
-                  Les photosites mesurent ainsi l'intensité lumineuse des rayons rouges (R), des rayons verts (V) et des
-                  rayons bleus (B).
-                  La tension électrique produite est ensuite convertie en nombre et envoyée au processeur de l'appareil
-                  photo.<br />
-                  La <b>définition</b> d'un capteur est le nombre total de ses photosites.
-                  <br /><br />
-                  <span class="fst-italic"> Source des images : SNT 2de, Sciences numériques et Technologie, pages
-                    106-107, édition Delagrave, Paris 2019.</span>
+                En python on utilise les opérateurs traditionnels mathématiques <b>+ - * /</b> <br> <br>
+                <b>La puissance</b> se fait avec deux fois le symbole multiplié <b>**</b>. Ex 2**4 signifie 2<sup>^4</sup> (2 puissance 4). <br><br>
+                  <b>%</b>appelé modulo sert à obtenir le <b>reste</b> de la division euclidienne de a par b<br> <br>
+                  <b>//</b>(double divisé) sert à obtenir le <b>quotient</b> de la division euclidienne de a par b<br>
                 </p>
 
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="ressources/Fonct_capteur.jpg" alt="" class="img-fluid">
+                <img src="ressources/operator.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Opérateurs de comparaison</h3>
+                <p class="justifier">
+                En python les opérateurs de comparaison sont les suivants :
+                <ul>
+                  <li><b>==</b> : égalité (pour des nombres ou des chaînes).</li>
+                  <li><b>   != </b>: inégalité (pour des nombres ou des chaînes).</li>
+                  <li><b>> :</b>  strictement supérieur</li>
+                  <li><b>>=</b>  Supérieur ou égal</li>
+                  <li><b> <</b> Strictement inférieur</li>
+                  <li><b><= </b>: inférieur ou égal</li>
+                    
+                </ul>
+                </p>
+
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                
+              </div>
+            </div>
+        </div>
+         
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Input</h3>
+                <p class="justifier">
+                En python pour récupérer une fonction utilisateur on utilise la fonctin <b>input</b> <br> <br>
+                il est possible d'effectuer un cast de la saisie utilisateur. <br><br>
+  
+                </p>
+
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="ressources/input.png" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -346,7 +373,12 @@ La fonction <b>type()</b> permet de connaître le type
 
         <div class="section-title" data-aos="zoom-out">
           <h2>Exercices</h2>
-          <!-- <p> Exercices de révisions</p> -->
+         <p> <ul>Ecrire un programme sous Python qui demande l’âge de l’utilisateur et retourne la phrase suivante:<br>
+          «  Tu as [age rentré par l’utilisateur] ans ».</ul>
+
+          </p>
+          <p> <ul>Le refaire en forçant l'utilisateur à rentrer un nombre entier.</ul>
+          </p> 
         </div>
         
 
