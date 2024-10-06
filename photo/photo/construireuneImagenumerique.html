@@ -154,18 +154,276 @@
     <!-- End Features Section -->
 
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-<h2> a venir</h2>
-        
+
+
+ <!-- ======= Features Section ======= -->
+ <section id="features" class="features">
+  <div class="container">
+
+    <ul class="nav nav-tabs row d-flex">
+      <li class="nav-item col-3" data-aos="zoom-in">
+        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+          <i class="fa fa-history"></i>
+          <h4 class="d-none d-lg-block">Algorithme et langage de programmation    </h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+          <i class="fa-solid fa-eye"></i>
+          <h4 class="d-none d-lg-block">Fonction informatique</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+          <i class="fa-solid fa-camera"></i>
+          <h4 class="d-none d-lg-block">Variable et boucles</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+          <i class="fa-solid fa-camera"></i>
+          <h4 class="d-none d-lg-block">Appeler des fonctions</h4>
+        </a>
+      </li>
+    
+    </ul>
+
+    <div class="tab-content" data-aos="fade-up">
+      <div class="tab-pane active show" id="tab-1">
+       
+        <div class="row">
+          <div class="col-lg-10 order-1 order-lg-1 mt-3 mt-lg-0">
+            <h3></h3>
+            
+            <div class="box notices cstyle warning">
+              <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+              <div class="box-content">
+                <p class="paddingside2">Pour créer un algorithme, il est nécessaire (et suffisant) d’utiliser des constructions élémentaires:
+
+                  <ul class="paddingside2">
+                    <li>  - variable,</li>
+                    <li>  - structure conditionnelle,</li>
+                    <li>  - boucle.</li>
+                  </ul>
+                  </p>
+               
+              </div>
+            </div><!-- fin box warning -->
+            <p>Par exemple, un professeur peut vouloir écrire un algorithme qui calcule la moyenne des trois notes trimestrielles et affiche un message en fonction du résultat:</p>
+            
+          
+            <div class="highlight wrap-code"><pre tabindex="0" class="pre-code" data-code="- récupérer la note 1
+              - récupérer la note 2
+              - récupérer la note 3
+              - additionner les 3 notes
+              - diviser le résultat par 3
+              - Si la moyenne est plus grande que 12:
+                  - afficher &quot;C'est bien&quot;
+              - Sinon:
+                  - afficher &quot;Peut mieux faire&quot;"><code class="copy-to-clipboard-code copy-to-clipboard">
+              - récupérer la note 1
+              - récupérer la note 2
+              - récupérer la note 3
+              - additionner les 3 notes
+              - diviser le résultat par 3
+              - Si la moyenne est plus grande que 12:
+                  - afficher "C'est bien"
+              - Sinon:
+                  - afficher "Peut mieux faire"</code></pre>
+                </div>
+
+                <div class="box notices cstyle warning">
+                  <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+                  <div class="box-content">
+                    <p class="paddingside2">
+                      Un langage de programmation permet de communiquer avec l’ordinateur. Il propose une syntaxe pour chaque construction élémentaire
+
+                    </p>
+                    <p class="paddingside2">
+                    Par exemple, l’algorithme précédent peut s’écrire ainsi dans le langage Python:
+                    </p><div class="highlight wrap-code">
+                      <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"
+                        class="pre-code">
+                    <code class="language-Python copy-to-clipboard-code copy-to-clipboard" data-lang="Python"><span style="display:flex">
+<span>print(<span style="color:#e6db74">"Entrer la note"</span>)
+</span></span><span style="display:flex"><span>note1 <span style="color:#f92672">=</span> float(input()
+</span></span><span style="display:flex"><span>print(<span style="color:#e6db74">"Entrer la note"</span>)
+</span></span><span style="display:flex"><span>note2 <span style="color:#f92672">=</span> float(input()
+</span></span><span style="display:flex"><span>print(<span style="color:#e6db74">"Entrer la note"</span>)
+</span></span><span style="display:flex"><span>note3 <span style="color:#f92672">=</span> float(input()
+</span></span><span style="display:flex"><span>somme <span style="color:#f92672">=</span> note1 <span style="color:#f92672">+</span> note2 <span style="color:#f92672">+</span> note3
+</span></span><span style="display:flex"><span>moyenne <span style="color:#f92672">=</span> somme<span style="color:#f92672">/</span><span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex"><span><span style="color:#66d9ef">if</span> moyenne <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">12</span>:
+</span></span><span style="display:flex"><span>    print(<span style="color:#e6db74">"C'est bien"</span>)
+</span></span><span style="display:flex"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex"><span>    print(<span style="color:#e6db74">"Peut mieux faire"</span>)</span></span></code></pre>
+                    </div>
+                  </div>
+                </div><!-- fin box warning -->
+                <div class="box notices cstyle note boxcontentnote">
+                  <div class="box-label boxbglabelnote">
+                    <i class="fa-fw fas fa-exclamation-circle"></i> Remarque
+                  </div>
+                  <div class="box-content ">
+                    <p class="paddingside2"> Ce code est donné à titre d’exemple. Il ne faut pas savoir les refaire.
+                  </div>
+                </div>
+          </div>
+         
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="" alt="" class="img-fluid">
+          </div>
         </div>
+      </div>
+      <div class="tab-pane" id="tab-2">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+            <h3></h3>
+          
 
 
-    </section>
-    <!-- End Features Section -->
+            <div class="box notices cstyle warning">
+              <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+              <div class="box-content">
+                <p class="paddingside2">En informatique, une fonction est un bloc de code qui réalise une tâche. Une fonction:
 
+                 
+                  
+                  <ul class="paddingside2">
+                    <li>  -  a un nom,</li>
+                    <li>  - a besoin d’informations: les paramètres,</li>
+                  </ul>
+                  </p>
+               
+              </div>
+            </div><!-- fin box warning -->
 
+            </div>
+         
+          <div class="col-lg-6 order-2 sorder-lg-2 text-center">
+            <img src="" alt="" class="img-fluid">
+          </div>
+      </div>
+      </div>
+      <div class="tab-pane" id="tab-3">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+            <h3>Variables</h3>
+            <div class="box notices cstyle warning">
+              <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+              <div class="box-content">
+                <p class="paddingside2">Pour repérer les images dans la mémoire, il faut les **référencer** avec des **variables**.</p>
+          
+            </div><!-- fin box warning -->
+            <div class="box notices cstyle warning">
+              <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+              <div class="box-content">
+                <p class="paddingside2">Pour créer une variable en Python, on utilise le signe **=**</p>
+                <div class="highlight wrap-code">
+                  <pre tabindex="0" class="pre-code">
+ image1 = creer_image_vide(255, 0, 0)
+ image2 = creer_image_vide(255, 255, 0)
+
+                  </code></pre></div>
+                                                              
+              </div>
+            </div><!-- fin box warning -->
+             
+        </div>
+          <div class="col-lg-6 order-2 order-lg-2 text-center">
+            <img src="ressources/memoire2.png" alt="" class="img-fluid">
+          
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+            <h3>Boucles</h3>
+            <div class="box notices cstyle warning">
+              <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+              <div class="box-content">
+                <p class="paddingside2">En informatique, on peut créer une boucle pour répéter du code.</p>
+                <div class="highlight wrap-code">
+                  <pre tabindex="0" class="pre-code">
+                                <code class="language-Python copy-to-clipboard-code copy-to-clipboard" data-lang="Python">
+<span style="display:flex"><span><span style="color:#66d9ef">for</span> valeur <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">50</span>, <span style="color:#ae81ff">150</span>, <span style="color:#ae81ff">1</span>): </span></span>
+<span style="display:flex"><span>    placer_pixel(image2, valeur, <span style="color:#ae81ff">350</span>)
+                              </span></span></code></pre></div>
+                                                              <ul>L’exemple ci-dessus place 100 pixels:
+                
+                                <li>- sur l’image 2</li>
+                                <li>- entre l’abscisse 50 et 149</li>
+                                <li>- à l’ordonnée 350</li>
+                              </ul>
+              </div>
+            </div><!-- fin box warning -->
+             Dans une image numérique chaque couleur peut varier de 0 à 255 soit 256 valeurs
+             <div class="box notices cstyle warning">
+              <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+              <div class="box-content">
+                <p class="paddingside2">Avec ce système on peut créer 256×256×256 = 16777216, soit plus de 16 millions de couleurs</p>
+               
+              </div>
+            </div><!-- fin box warning -->
+       
+          <div class="box notices cstyle warning">
+            <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+            <div class="box-content">
+              <p class="paddingside2">
+                Une image numérique peut contenir plusieurs millions de pixels.<br>
+Chaque pixel est une couleur parmi plus de 16 millions possibles
+              </p>
+            </div>
+
+            
+          </div><!-- fin box warning -->
+        </div>
+          <div class="col-lg-6 order-2 order-lg-2 text-center">
+            <div class="box notices cstyle note boxcontentnote">
+              <div class="box-label boxbglabelnote">
+                <i class="fa-fw fas fa-exclamation-circle"></i> Remarque
+              </div>
+              <div class="box-content ">
+                <p class="paddingside2">  Synthèse soustractive<br>
+                  Une imprimante à jet d’encre utilise quatre encres : Cyan, Magenta, Jaune, Noir. En appliquant les
+                  trois premières couleurs sur une feuille blanche il est possible de créer les autres nuances par synthèse
+                  soustractive</p>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="tab-pane" id="tab-4">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+            <h3>Le fonctionnement du capteur photographique</h3>
+            <div class="box notices cstyle warning">
+            <div class="box-label warningbglabel"><i class="fa-fw fas fa-volume-up"></i> À retenir</div>
+            <div class="box-content">
+              <p class="paddingside2">une fonction s'appel par son nom en lui passant les paramètres appropriés</p>
+              <div class="highlight wrap-code">
+                <pre tabindex="0" class="pre-code"><code>
+image1 = creer_image_vide(255, 0, 0)
+image2 = creer_image_vide(255, 255, 0)
+
+                </code></pre></div>
+                                                            
+            </div>
+          </div><!-- fin box warning -->
+           
+            
+          </div>
+          <div class="col-lg-6 order-2 order-lg-2 text-center">
+       
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Features Section -->
     <!-- ======= Exercices Section ======= -->
     <section id="exos" class="services">
       <div class="container">
@@ -269,15 +527,15 @@
       
 
       <div class="col-lg-3 col-md-6">
-        <!-- <div class="box" data-aos="zoom-in">
-          <h3>Le fichier du notebook </h3>
-          <ul>Utilisable avec jupyter          </ul>
+       <div class="box" data-aos="zoom-in">
+          <h3>Les fichiers annexes</h3>
+        
           <div class="btn-wrap">
-            <a target="_blank" href="ressource/TP.zip" class="btn-buy">Télécharger</a>
+            <a target="_blank" href="ressources/traitement-image.zip" class="btn-buy">Télécharger</a>
           </div>
         </div>
       </div>
-      <div class="box" data-aos="zoom-in">
+     <!-- <div class="box" data-aos="zoom-in">
         <h3>Le code  </h3>
         <ul>Pour démarrer        </ul>
         <div class="btn-wrap">
