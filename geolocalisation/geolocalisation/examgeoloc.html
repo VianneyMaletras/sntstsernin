@@ -87,9 +87,9 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">L'IGN </h2>
+          <h2 class="animate__animated animate__fadeInDown">Principes de la Géolocalisation</h2>
           <p class="animate__animated animate__fadeInUp"></p>
-          <p><b>Quelles sont ses missions, et ses moyens technologiques</b>
+          <p><b>Comment fonctionne la Géolocalisation?</b>
           </p>
           <!-- <a href="#resume" class="btn-get-started animate__animated animate__fadeInUp scrollto">Lire plus</a> -->
         </div>
@@ -100,7 +100,47 @@
   <main id="main">
 <!-- Section programme officiel -->
     <section class="inner-page">
-     
+      <div class="container">
+        <h2> Programme officiel</h2>
+        <table>
+          <thead>
+            <th>
+              Contenus
+            </th>
+            <th class="padleft10px">
+              Capacités attendues
+            </th>
+            <!-- <th> Commentaires</th> -->
+          </thead>
+          <tbody>
+          
+              <tr>
+                <td class="padleft10px">Photosites, pixels, résolution (du capteur, de l'image), profondeur de couleur</td>
+                <td class="padleft10px">Distinguer les photosites du capteur et les pixels de l’image en comparant les résolutions du capteur et de l’image selon les réglages de l’appareil. </td>
+              </tr>
+              <tr>
+                <td class="padleft10px">Métadonnées EXIF</td>
+                <td class="padleft10px"> Retrouver les métadonnées d’une photographie</td></tr>
+              <tr>
+                <td class="padleft10px"></td>
+                <td class="padleft10px">Traiter par programme une image pour la transformer en agissant sur les trois composantes de ses pixels. </td>
+              </tr>
+              <tr>
+                <td class="padleft10px">Traitement d'image</td>
+                <td class="padleft10px">Expliciter des algorithmes associés à la prise de vue.</td>
+              </tr>
+              <tr>
+                <td class="padleft10px">Rôle des algorithmes dans les appareils photo numériques</td>
+                <td class="padleft10px"> Identifier les étapes de la construction de l’image finale.</td>
+              </tr>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+
+        </p>
+      </div>
     </section><!-- End carousel -->
    
     <!-- End Features Section -->
@@ -108,25 +148,25 @@
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
-      <!-- <div class="container">
+ <div class="container">
 
         <ul class="nav nav-tabs row d-flex">
           <li class="nav-item col-3" data-aos="zoom-in">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
               <i class="fa fa-history"></i>
-              <h4 class="d-none d-lg-block"></h4>
+              <h4 class="d-none d-lg-block">Histoire </h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-              <i class="fa-solid fa-eye"></i>
-              <h4 class="d-none d-lg-block"></h4>
+              <i class="fa-solid fa-globe"></i>
+              <h4 class="d-none d-lg-block">Repérage sur Terre</h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-              <i class="fa-solid fa-camera"></i>
-              <h4 class="d-none d-lg-block">L'appareil photo numérique</h4>
+              <i class="fa-solid fa-map-location"></i>
+              <h4 class="d-none d-lg-block">Principes du GPS</h4>
             </a>
           </li>
       
@@ -138,65 +178,116 @@
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3></h3>
                 <p class="justifier"></p>
-                  A droite quelques repères historiques de la photo numérique présentés sous la forme d'une frise : 
-                  <a href="./ressources/histoire_photographie.png" target="_blank">Voir en plus gros</a>
+                  A droite quelques repères historiques présentés sous la forme d'une frise : 
+                  <a href="./ressources/histoiregeoloc.png" target="_blank">Voir en plus gros</a>
                 </p>
                 
                 </div>
              
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="ressources/histoire_photographie.png" alt="" class="img-fluid">
+                <img src="ressources/histoiregeoloc.png" alt="" class="img-fluid">
               </div>
             </div>
           </div>
           <div class="tab-pane" id="tab-2">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>La vision Humaine</h3>
+                <h3>Système géodésique WGS84</h3>
                 
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Les rayons lumineux provenant d'un objet sont projetés au fond de l'oeil sur la rétine.</li>
-                  <li><i class="ri-check-double-line"></i> Celle-ci comprend des cellules sensibles à la lumière : les cônes.
+                <ul>Afin de repérer tout point de la Terre, on utilise deux cercles de référence :
+                 
+                  
+                  
+                  <li><i class="ri-check-double-line"></i> l’équateur,</li>
+                  <li><i class="ri-check-double-line"></i> le méridien de Greenwich..
                   </li>
                 </ul>
                 <p class="justifier">
-                  Certains cônes perçoivent la couleur rouge, d'autres la couleur verte et d'autres la couleur bleue. Les cônes sensibles au vert sont les plus présents chez l'être humain. Ils transforment l'énergie lumineuse en impulsion électrique. Cette impulsion est transmise au cerveau par l'intermédiaire du nerf optique. La couleur est ensuite reconstituée par le cerveau par addition du rouge, du vert et du bleu</p>
-                  <p class="fst-italic justifier">
-                    Les yeux voient à l'envers <br>
-                    Ce que nous voyons est constitué de lumière réfléchie à partir de ce sur quoi notre regard se pose.<br>
-                    Cependant, la cornée incurvée à l'avant de l'œil courbe la lumière qui pénètre l'œil. <br>
-                    Résultat : l'image est renversée lorsqu'elle frappe la rétine au fond de l'œil. 
-      
-                      </p>
+                  Sur un planisphère, ces deux cercles sont matérialisés par des axes 
+                </p>
                 </div>
              
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="ressources/Vision_Humain.jpg" alt="" class="img-fluid">
+                <img src="ressources/meridienequateur.jpg" alt="" class="img-fluid">
               </div>
           </div>
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+              <br/>
+              <h3>Latitude et Longitude</h3>
+              
+              <ul>Pour repérer une position M sur la Terre en trois dimensions on utilise des angles :      
+              
+                <li><i class="ri-check-double-line"></i>  <b>sa longitude</b>: angle entre le méridien de Greenwich et le méridien passant par M,</li>
+                <li><i class="ri-check-double-line"></i>   <b>sa latitude</b>: angle entre l’équateur et le parallèle passant  par M..
+                </li>
+              </ul>
+              <p class="justifier">
+                Sur un planisphère, ces deux cercles sont matérialisés par des axes 
+
+
+              </p>
+              </div>
+           
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <br/>
+              <img src="ressources/latitude_longitude_1.png" alt="" class="img-fluid"><br>
+              <a href="./ressources/latitude_longitude_1.png" target="_blank">Voir en plus gros</a>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <br/>
+            <h3>Zones</h3>
+            <p class="justifier">
+              Selon les positions par rapport aux axes on indique également les zones.
+           </p>
+            </div>
+         
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <br/>
+            <img src="ressources/zones.jpg" alt="" class="img-fluid"><br>
+            <a href="./ressources/zones.jpg" target="_blank">Voir en plus gros</a>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+          <br/>
+          <h3>Exemple</h3>
+          <p class="justifier">
+            <ul>Ainsi dans la figure les coordonnées du point M sont :
+            <li>latitude : 31,6°N</li>
+            <li>longitude : 56,12°E</li>
+          </ul>
+         </p>
+          </div>
+       
+        <div class="col-lg-6 order-1 order-lg-2 text-center">
+          <br/>
+          <img src="ressources/pointM.jpg" alt="" class="img-fluid"><br>
+          <a href="./ressources/pointM.jpg" target="_blank">Voir en plus gros</a>
+        </div>
+    </div>
           </div>
           <div class="tab-pane" id="tab-3">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>L'appareil photo numérique</h3>
+                <h3></h3>
                 <p class="justifier">
                  
-
-Les rayons lumineux provenant d'un objet sont projetés dans l'appareil photo sur le <b>capteur photographique</b>.<br/><br/>
-Celui-ci est constitué de cellules sensibles à la lumière. <br/><br/>
-La mesure de l'intensité lumineuse est transformée en données numériques puis stockée dans la mémoire de l'appareil
-                </p>
+A venir
+ </p>
                
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="./ressources/Appareil_Photo.jpg" alt="" class="img-fluid">
+                <img src="" alt="" class="img-fluid">
               </div>
             </div>
           </div>
  
         </div>
 
-      </div> -->
+      </div>
     </section>
     <!-- End Features Section -->
 
@@ -225,40 +316,69 @@ La mesure de l'intensité lumineuse est transformée en données numériques pui
         
             <div class="col-lg-3 col-md-6">
               <div class="box" data-aos="zoom-in">
-                <h3>La vidéo sur lidar Hd</h3>
-                <ul> Sur la digitale
-                </ul>
+                <h3>La vidéo d'introduction</h3>
+               
                 <div class="btn-wrap">
-                  <a target="_blank" href="https://ladigitale.dev/digiview/#/v/67457615ea844" class="btn-buy"> Y aller</a>
+                  <a target="_blank" href="https://ladigitale.dev/digiview/#/v/67336bebbf2e5" class="btn-buy"> Y aller</a>
                 </div>
               </div>
             </div>  
 
             
-            <div class="col-lg-3 col-md-6">
-              <div class="box" data-aos="zoom-in">
-                <h3>Le site avec les photos</h3>
-                <ul> Pour l'activité 1 </ul>
-                <div class="btn-wrap">
-                  <a href="https://www.ign.fr/reperes/les-cotes-francaises-malmenees-par-latlantique " class="btn-buy">Y aller</a>
-                </div>
-              </div>
-            </div>
 
             <div class="col-lg-3 col-md-6">
               <div class="box" data-aos="zoom-in">
-                <h3>Géoportail</h3>
-                <ul> Le site
+                <h3>Video sur l'histoire de la Géolocalisation</h3>
+                <ul> Pour remplir la frise chronologique
                 </ul>
 
                
                 <div class="btn-wrap">
-                  <a href="site https://www.geoportail.gouv.fr " class="btn-buy">Y aller</a>
+                  <a href="https://ladigitale.dev/digiview/#/v/67336d6966872" class="btn-buy">Y aller</a>
                 </div>
               </div>
             </div>
 
              
+
+            <div class="col-lg-3 col-md-6">
+              <div class="box" data-aos="zoom-in">
+                <h3>Le site geogebra</h3>
+                <ul> </ul>
+                <div class="btn-wrap">
+                  <a href="https://www.geogebra.org/classic " class="btn-buy">Y aller</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box" data-aos="zoom-in">
+                <h3>Video galileo</h3>
+                <ul> </ul>
+                <div class="btn-wrap">
+                  <a href="https://ladigitale.dev/digiview/#/v/673afbc049cf3" class="btn-buy">Y aller</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="box" data-aos="zoom-in">
+                <h3>Vidéo Se repérer sur une sphère</h3>
+                <ul> </ul>
+                <div class="btn-wrap">
+                  <a href="https://youtu.be/GNbVEivQpVQ" class="btn-buy">Y aller</a>
+                </div>
+              </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
         </div>
 
 
@@ -269,7 +389,6 @@ La mesure de l'intensité lumineuse est transformée en données numériques pui
       </div>
 
       <div class="row">
-
         <div class="col-lg-3 col-md-6">
           <div class="box" data-aos="zoom-in">
             <h3>Le cours en pdf </h3>
@@ -278,33 +397,47 @@ La mesure de l'intensité lumineuse est transformée en données numériques pui
 
             </ul>
             <div class="btn-wrap">
-              <a target="_blank" href="ressources/2-geoportail.pdf" class="btn-buy">Télécharger</a>
+              <a target="_blank" href="ressources/1-principesGeoloc.pdf" class="btn-buy">Télécharger</a>
             </div>
           </div>
 
         </div>
+
      <div class="col-lg-3 col-md-6">
           <div class="box" data-aos="zoom-in">
-            <h3>L'annexe (.zip)</h3>
+            <h3>Le fichier geolocalisation.zip </h3>
             <ul></ul>
 
 
             </ul>
             <div class="btn-wrap">
-              <a target="_blank" href="ressources/geoportail-annexe.zip" class="btn-buy">Télécharger</a>
+              <a target="_blank" href="ressources/geolocalisation.zip" class="btn-buy">Télécharger</a>
             </div>
           </div>
 
         </div> 
         <div class="col-lg-3 col-md-6">
           <div class="box" data-aos="zoom-in">
-            <h3>Le pdf des activitées</h3>
+            <h3>Le fichier des activitées</h3>
             <ul></ul>
 
 
             </ul>
             <div class="btn-wrap">
-              <a target="_blank" href="ressources/activitesgeoportail.pdf" class="btn-buy">Télécharger</a>
+              <a target="_blank" href="ressources/activitesppesgeoloc.pdf" class="btn-buy">Télécharger</a>
+            </div>
+          </div>
+
+        </div> 
+        <div class="col-lg-3 col-md-6">
+          <div class="box" data-aos="zoom-in">
+            <h3>Les photos</h3>
+            <ul></ul>
+
+
+            </ul>
+            <div class="btn-wrap">
+              <a target="_blank" href="ressources/photostourEiffel.zip" class="btn-buy">Télécharger</a>
             </div>
           </div>
 
