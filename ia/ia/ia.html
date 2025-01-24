@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Geoportail</title>
-  <title>CSS</title>
+  <title>IA</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -66,7 +65,6 @@
           <li class="dropdown"><a href=""><span>Web</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="./orientation.html">Orientation</a></li>
-              <li><a href="./principesweb.html">Principes du web</a></li>
               <li><a href="./premierepageweb.html">Première page web</a></li>
              <li><a href="./cssweb.html">Jolie page web</a></li>
             </ul>
@@ -95,12 +93,10 @@
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">CSS </h2>
-          <p class="animate__animated animate__fadeInUp"></p>
-          <p><b>Comment mettre en forme une page web</b>
-          </p>
-          <!-- <a href="#resume" class="btn-get-started animate__animated animate__fadeInUp scrollto">Lire plus</a> -->
-        </div>
+          <h2 class="animate__animated animate__fadeInDown">Première page Web </h2>
+          <p class="animate__animated animate__fadeInUp">Comment créer du contenu pour le web</p>
+          
+           </div>
       </div>
 
   </section> <!-- End Hero -->
@@ -122,17 +118,15 @@
           <li class="nav-item col-3" data-aos="zoom-in">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
               <i class="fa fa-history"></i>
-              <h4 class="d-none d-lg-block">L’IGN </h4>
+              <h4 class="d-none d-lg-block">Historique </h4>
             </a>
           </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
               <i class="fa-solid fa-globe"></i>
-              <h4 class="d-none d-lg-block">Géoportail</h4>
-              <h4 class="d-none d-lg-block">CSS </h4>
+              <h4 class="d-none d-lg-block">Construire une page web</h4>
             </a>
           </li>
-          
           <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
                    <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
                      <i class="fa-solid fa-map-location"></i>
@@ -146,82 +140,36 @@
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Mission</h3>
+                <h3>Tim Berner Lee</h3>
                 <p class="justifier"></p>
-              <b>Observer - Mesurer - Décrire le territoire</b><br>
-                Le rôle de l’IGN est de fournir des données géolocalisées fiables et de favoriser leur utilisation
-                </p>
+                Il est considéré comme le père du web.<br/>
+                En 1989, il a rassemblé plusieurs idées et technologies pour construire un système facilitant l’échange de ressources entre les scientifiques du CERN. <br/>
+                Quand le web est tombé dans le domaine publique, le développement a été très rapide. </p>
 
               </div>
 
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-
+                <img class="maxwidth500px"  style=" height: 300px;"              src="ressources/lee.jpg" alt="" class="img-fluid">
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3> Moyens technologiques
-                </h3>
-                <ul class="examlistinside">
-                  Pour construire une page web, on distingue:
-
-                <ul>L’IGN utilise de nombreux moyens pour récolter les données :
-                  <li> <b>Géoplateforme</b> : mutualisation des données entre l’IGN et ses partenaires,</li>
-                  <li><b>Lidar HD </b>: relevé laser de grande précision</li>
-                  <li>…</li>
-                  <li>le fond (le contenu): en langage html</li>
-                <li>la forme (la mise en page): en langage css</li>
-                 
-                </ul>
-
-              </div>
-
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-
-              </div>
-            </div>
+           
           </div>
           <div class="tab-pane" id="tab-2">
             <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                Le Géoportail est un site web qui permet d’accéder aux données fournies par l’IGN.<br>
-                <p class="justifier">
-                On applique des règles de mise en forme au différents blocs de la page html. Ces règles sont stockées dans un fichier 
-                <b>css (Cascading Style Sheets - feuille de style en cascades)</b>.
-              </p>
-                
-              </div>
-
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-
-                <img src="ressources/accueilgeoportail.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                
-                Il existe de nombreux fonds de cartes qui fournissent des informations différentes (lignes de niveau,
-cadastre…)
+              <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+                <p>Il faut écrire un fichier html. Cette page possède toujours le même squelette.</p>
 
               </div>
 
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-
-                <img src="ressources/maptrelissac.jpg" alt="" class="img-fluid">
-                <p class="justifier">
-                Cette règle colore tous les titres de type H1 en rouge.</p>
-                <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
-                  <pre>
-                    <code class="language-css">
-                      h1 {
-                        color: red;
-                    }          
-                    </code></pre>
+              <div class="col-lg-6 order-2 order-lg-2 text-center">
+               
+                    <img src="ressources/htmlcode.png" alt="" class="img-fluid">
                 </div>
               </div>
             </div>
-          
-          </div>
+            </div>
+ 
+        </div>
 
       </div>
 
@@ -250,7 +198,7 @@ cadastre…)
 
 
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>La vidéo sur lidar Hd</h3>
               <ul> Sur la digitale
@@ -259,8 +207,8 @@ cadastre…)
                 <a target="_blank" href="https://ladigitale.dev/digiview/#/v/67457615ea844" class="btn-buy"> Y aller</a>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
+          </div> -->
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>La vidéo sur les géodata</h3>
               <ul> Sur la digitale
@@ -269,10 +217,10 @@ cadastre…)
                 <a target="_blank" href="https://ladigitale.dev/digiview/#/v/6748946727ba0" class="btn-buy"> Y aller</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>Le site avec les photos</h3>
               <ul> Pour l'activité 1 </ul>
@@ -281,9 +229,9 @@ cadastre…)
                   class="btn-buy">Y aller</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>Géoportail</h3>
               <ul> Le site
@@ -294,7 +242,7 @@ cadastre…)
                 <a target="_blank" href="https://www.geoportail.gouv.fr" class="btn-buy">Y aller</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
 
         </div>
@@ -316,12 +264,12 @@ cadastre…)
 
               </ul>
               <div class="btn-wrap">
-                <a target="_blank" href="ressources/2-geoportail.pdf" class="btn-buy">Télécharger</a>
+                <a target="_blank" href="ressources/1-premierepageweb.pdf" class="btn-buy">Télécharger</a>
               </div>
             </div>
 
           </div>
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="box" data-aos="zoom-in">
               <h3>L'annexe (.zip)</h3>
               <ul></ul>
@@ -357,8 +305,9 @@ cadastre…)
               <div class="btn-wrap">
                 <a target="_blank" href="ressources/activitesgeoportailCorrige.pdf" class="btn-buy">Télécharger</a>
               </div>
-            </div>
-
+            </div> -->
+            <div style="width: 100%;"><div style="position: relative; padding-bottom: 55.00000000000001%; padding-top: 0; height: 0;"><iframe title="Seq3-Informatique embarquée et objets connectés" frameborder="0" width="1000px" height="550px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/61d415371d0f2b0ded901e7b" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+             <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;"><video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%"><source src="https://static.genially.com/resources/loader-default-rebranding.mp4" type="video/mp4" />Your browser does not support the video tag.</video><div id="61d415371d0f2b0ded901e7b" class="genially-embed" style="margin: 0px auto; position: relative; height: auto; width: 100%;"></div></div><script>(function (d) { var js, id = "genially-embed-js", ref = d.getElementsByTagName("script")[0]; if (d.getElementById(id)) { return; } js = d.createElement("script"); js.id = id; js.async = true; js.src = "https://view.genially.com/static/embed/embed.js"; ref.parentNode.insertBefore(js, ref); }(document));</script>
           </div>
         </div>
     </section><!-- End Annexes Section -->
