@@ -71,8 +71,8 @@
              <li><a href="./cssweb.html">Jolie page web</a></li>
              <li><a href="./Positionnement.html">Positionnement</a></li>
              <li><a href="./flexboxetbootstrap.html">FlexBox et boostrap</a></li>
-            <!--  <li><a href="./responsivedesign.html">Positionnement</a></li>
-             <li><a href="./cssweb.html">Tp Web</a></li>
+             <li><a href="./responsivedesign.html">Responsive Design</a></li>
+             <!-- <li><a href="./cssweb.html">Tp Web</a></li>
              <li><a href="./cssweb.html">Examen Web</a></li> -->
            
             </ul>
@@ -128,10 +128,15 @@
           <li class="nav-item col-3" data-aos="zoom-in">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
               <i class="fa fa-history"></i>
-              <h4 class="d-none d-lg-block">CSS </h4>
+              <h4 class="d-none d-lg-block">Flexbox </h4>
             </a>
           </li>
-
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="fa-solid fa-map-location"></i>
+              <h4 class="d-none d-lg-block">Boostrap</h4>
+            </a>
+          </li>
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
@@ -142,19 +147,45 @@
 
                 
                 <p class="justifier">
-                Cette règle colore tous les titres de type H1 en rouge.</p>
+                  Introduction
+                  Le modèle Flexbox (ou boîte flexible) est une méthode de disposition en CSS qui permet de créer des interfaces adaptatives de manière simple et efficace. Il est particulièrement utile pour organiser des éléments sur une page, que ce soit en ligne (horizontalement) ou en colonne (verticalement).</p>
                 <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
                   <pre>
                     <code class="language-css">
-                      h1 {
-                        color: red;
-                    }          
+                      section {
+                        display: flex;
+                        border: 3px solid black;
+                      }        
                     </code></pre>
                 </div>
               </div>
             </div>
           
-          </div>
+          </div><!-- fin tabpane -->
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3></h3>
+                <p class="justifier">
+                 
+                  Bootstrap est un framework CSS open-source qui facilite la création de mises en page réactives. Il est basé sur Flexbox et propose des classes CSS prédéfinies pour gérer rapidement l'alignement et la disposition des éléments.
+ </p>
+ <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
+  <pre>
+    <code class="language-html">
+      <div class="d-flex justify-content-center align-items-center" style="height: 200px; border: 1px solid black;">
+        <div class="p-2 bg-primary text-white">Article 1</div>
+        <div class="p-2 bg-success text-white">Article 2</div>
+        <div class="p-2 bg-danger text-white">Article 3</div>
+      </div>   
+    </code></pre>
+</div>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="./ressources/Image1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- fin tabpane -->
 
       </div>
 
@@ -193,6 +224,40 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>La documentation flexbox </h3>
+              <ul> 
+              </ul>
+              <div class="btn-wrap">
+                <a target="_blank" href="https://www.w3schools.com/css/css3_flexbox.asp" class="btn-buy"> Y aller</a>
+            
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>La documentation boostrap </h3>
+              <ul> 
+              </ul>
+              <div class="btn-wrap">
+                <a target="_blank" href="https://getbootstrap.com/" class="btn-buy"> Y aller</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Un générateur de flexbox </h3>
+              <ul> 
+              </ul>
+              <div class="btn-wrap">
+                <a target="_blank" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/https://outils-css.aliasdmc.fr/generateur-de-flexbox.php" class="btn-buy"> Y aller</a>
+                
+              </div>
+            </div>
+          </div>
+         
          
 
 
