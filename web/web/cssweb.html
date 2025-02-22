@@ -130,7 +130,18 @@
               <h4 class="d-none d-lg-block">CSS </h4>
             </a>
           </li>
-
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="fa-solid fa-globe"></i>
+              <h4 class="d-none d-lg-block">Classes</h4>
+            </a>
+          </li>
+          <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="fa-solid fa-map-location"></i>
+              <h4 class="d-none d-lg-block">Principes</h4>
+            </a>
+          </li> -->
         </ul>
 
         <div class="tab-content" data-aos="fade-up">
@@ -155,34 +166,83 @@
 
             <div class="row">
 
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <div class="col-lg-6 order-1 order-lg-2 ">
 
-                
                 <p class="justifier">
-                Il est possible de faire une classe qui sera réutilsée.
-              <br/> Une classe CSS commence par un <b>.</b> avant le nom.</p>
-                <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
-                  <pre>
-                    <code class="language-css">
-                      // classe qui met un texte en rouge
-                      .titre_rouge {
-                        color: red;
-                    }          
-                    </code></pre>
+                 Pour lier une feuille de style avec une page HTML il faut utiliser la balise link</p>
+                  <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
+                    <pre>
+                      <code class="language-css">
+                        &#60;link href="style.css" rel="stylesheet" />       
+                      </code></pre>
+                  </div>
+                  <ul class="examlisteinside"><b>Explications :</b>
+                    <li><b>href="style.css" </b> : Identifie le chemin et le nom du fichier css.</li>
+                    <li><b>rel="stylesheet" </b>: Indique au navigateur que le fichier est de type feuille de style</li>
+                  </ul>
                 </div>
-              <br/>
-              Il faut ensuite l'appliquer sur les éléments choisis<br>
-              
-           
-&#60;h1 class="titre_rouge">  Ce titre sera en rouge. &#60;/h1>  <br>
-&#60;p class="titre_rouge"> Le texte de ce paragraphe sera en rouge.&#60;/p>
             
               </div>
 
             </div>
           
-          </div>
 
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+             
+                <p class="justifier">
+                  Il est possible de faire une classe qui sera réutilsée.
+                <br/> Une classe CSS commence par un <b>.</b> avant le nom.</p>
+                  <div class=" theme-atom-one-dark shadow-3xl text-sm relative overflow-hidden max-w-full tab-size h-full">
+                    <pre>
+                      <code class="language-css">
+                        // classe qui met un texte en rouge
+                        .titre_rouge {
+                          color: red;
+                      }          
+                      </code></pre>
+                  </div>
+                <br/>
+                Il faut ensuite l'appliquer sur les éléments choisis<br>
+                
+             
+                &#60;h1 class="titre_rouge">  Ce titre sera en rouge. &#60;/h1>  <br>
+                &#60;p class="titre_rouge"> Le texte de ce paragraphe sera en rouge.&#60;/p>
+                </div>
+             
+              <div class="col-lg-6 order-2 order-lg-2 text-center">
+        
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+              
+              </div>
+           
+            <div class="col-lg-6 order-2 order-lg-2 text-center">
+              <br/>
+              
+            </div>
+        </div>
+
+    </div>
+       
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+               
+ </ul>
+  
+               
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+              
+              </div>
+            </div>
+          </div>
+ 
+        </div>
       </div>
 
    
