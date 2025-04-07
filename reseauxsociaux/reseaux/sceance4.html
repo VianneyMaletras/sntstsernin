@@ -108,7 +108,7 @@
     <section class="inner-page">
 
     </section><!-- End carousel -->
-<!-- 
+
     <section id="features" class="features">
       <div class="container">
      
@@ -116,19 +116,14 @@
                <li class="nav-item col-3" data-aos="zoom-in">
                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
                    <i class="fa fa-history"></i>
-                   <h4 class="d-none d-lg-block">Histoire </h4>
+                   <h4 class="d-none d-lg-block">Définitions </h4>
                  </a>
                </li>
-               <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                   <i class="fa-solid fa-globe"></i>
-                   <h4 class="d-none d-lg-block">Le web</h4>
-                 </a>
-               </li>
+              
                <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
                    <i class="fa-solid fa-map-location"></i>
-                   <h4 class="d-none d-lg-block">Principes</h4>
+                   <h4 class="d-none d-lg-block">Petit monde de milgramm</h4>
                  </a>
                </li>
            
@@ -137,85 +132,95 @@
              <div class="tab-content" data-aos="fade-up">
                <div class="tab-pane active show" id="tab-1">
                  <div class="row">
-                   <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                     <h3></h3>
-                     <p class="justifier"></p>
-                       A droite quelques repères historiques présentés sous la forme d'une frise : 
-                       <a href="./ressources/histoirque1.png" target="_blank">Voir en plus gros</a>
+                   <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+                     <h3>Graphe</h3>
+                     Un graphe est une structure mathématique utilisée pour modéliser des relations entre objets. Il est composé de deux éléments principaux : les sommets (ou nœuds) et les arêtes (ou liens).
+
+                    Voyons ensemble les graphes, dans le cadre des réseaux sociaux.
+                    <h3>Sommets</h3>
+                     <p class="justifier">
+                     Les <b>sommets</b> sont les entités individuelles dans le graphe. Un sommet peut comporter une information, comme par exemple un nom, une lettre ou un numéro.
+<br>
+                     Par exemple, dans un réseau social, <b>chaque personne serait un sommet</b>.
+                       <a href="./ressources/graphes/Graphe_sommets.png" target="_blank">Voir en plus gros</a>
                      </p>
                      
                      </div>
                   
-                   <div class="col-lg-6 order-1 order-lg-2 text-center">
-                     <img src="ressources/histoirque1.png" alt="" class="img-fluid">
+                   <div class="col-lg-6 order-2 order-lg-2 text-center">
+                     <img src="./ressources/graphes/Graphe_sommets.png" alt="" class="img-fluid">
                    </div>
                  </div>
                  <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                    <h3></h3>
-                    <p class="justifier"></p>
-                      A droite quelques dates complémentaires présentés sous la forme d'une frise : 
-                      <a href="./ressources/histoirque2.png" target="_blank">Voir en plus gros</a>
+                  <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+                    <h3>Arêtes</h3>
+             
+                    <p class="justifier">
+                    Les <b>arêtes</b> sont les connexions entre les sommets. Chaque arête est donc reliée à deux sommets.
+<br>
+Dans l’exemple du réseau social, une arête pourrait représenter <b>une relation d’amitié</b> entre deux personnes.
+                      <a href="./ressources/graphes/Graphe_sommets.png" target="_blank">Voir en plus gros</a>
                     </p>
                     
                     </div>
                  
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="ressources/histoirque2.png" alt="" class="img-fluid">
+                  <div class="col-lg-6 order-2 order-lg-2 text-center">
+                    <img src="./ressources/graphes/Graphe_arretes.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+                    <h3>Distance et écartement</h3>
+             
+                    <p class="justifier">
+                    La <b>distance</b> entre deux sommets est le nombre minimum d’arêtes qu’il faut parcourir pour aller d’un des deux sommets à l’autre.
+                    <br><b>L'écartement</b> d'un sommet (ou excentricité) est la distance maximale entre ce sommet et les autres sommets du graphe
+                     
+                    </p>
+                    
+                    </div>
+                 
+                  <div class="col-lg-6 order-2 order-lg-2 text-center">
+                  
+                  </div>
+                </div>
+
+           
+                <div class="row">
+                  <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
+                    <h3>Diamètre, centre et rayon </h3>
+             
+                    <p class="justifier">
+                    On appelle <b>diamètre</b> d'un graphe, la distance maximale entre deux sommets de ce graphe (c'est donc l'écartement maximal des sommets).
+                    <br/>On appelle <b>centre</b> d'un graphe, l'ensemble des sommets dont l'écartement est minimal.
+                    <br/>On appelle <b>rayon</b> d'un graphe, l'écartement des sommets du centre du graphe (c'est donc l'écartement minimal des sommets).
+                    </p>
+                    
+                    </div>
+                 
+                  <div class="col-lg-6 order-2 order-lg-2 text-center">
+                  
                   </div>
                 </div>
                </div>
-               <div class="tab-pane" id="tab-2">
-                 <div class="row">
-                   <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                     <h3>Définition</h3>
-                     
-                    
-                     <p class="justifier"></p>
-                     
-Ensemble des données reliées par des liens hypertextes, sur Internet
-                     </p>
-                     </div>
-                  
-                   <div class="col-lg-6 order-1 order-lg-2 text-center">
-                     <img src="ressources/meridienequateur.jpg" alt="" class="img-fluid">
-                   </div>
-               </div>
-               <div class="row">
-                 <div class="col-lg-6 order-1 order-lg-1 mt-3 mt-lg-0">
-                   <br/>
-                   <h3>Web vs Internet</h3>
-                   <p class="justifier">
-                   Attention le web est différent d'internet. Il en est une partie.
-                   </p>
-     
-                   </p>
-                   </div>
-                
-                 <div class="col-lg-6 order-2 order-lg-2 text-center">
-                   <br/>
-                   <img src="ressources/webvsinterbet.png" alt="" class="img-fluid"><br>
-                   <a href="./ressources/webvsinterbet.png" target="_blank">Voir en plus gros</a>
-                 </div>
-             </div>
-
-         </div>
             
                <div class="tab-pane" id="tab-3">
                  <div class="row">
                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                      <h3></h3>
                      <p class="justifier">
-                      
-     Le web repose sur 3 principes HTTP + URL + HTML
+                      En 1967, Milgram reprend une idée développée en 1929 par Frigyes Karinthy : <b>la théorie des six degrés de séparation.</b>
+<br/><br/>
+                      L’idée générale était d’obtenir un échantillon d’hommes et de femmes de tous horizons. On donnerait, à chacune de ces personnes, le nom et l’adresse d’un même individu cible, choisi au hasard parmi les habitants des États-Unis. On demanderait à chaque participant de faire passer un message jusqu’à l’individu cible, en utilisant une chaîne d’amis et de connaissances. On demanderait, à chaque personne, de transmettre le message à l’ami ou la connaissance qu’elle penserait la mieux à même de connaître l’individu cible. Les messages ne devraient passer que par des personnes qui se connaissent les unes les autres par leur prénom.
       </p>
-      <ul class="examlisteinside">
-                      
-        Le protocole HTTP assure le transport et donne un code réponse pour chaque ressource:
-        <li><b>200</b> : Tout s'est bien passé</li>
-        <li><b>404</b> : ressource non trouvéé</li>
-        <li><b>500</b> : erreur du serveur interne </li>
-      </ul>
+      <div class="box notices cstyle note boxcontentnote">
+        <div class="box-label boxbglabelnote">
+          <i class="fa-fw fas fa-exclamation-circle"></i> Remarque
+        </div>
+        <div class="box-content ">
+          <p class="paddingside2"> Ce principe est vérifié dans la construction des réseaux sociaux. Le degré de séparation entre deux individus est même inférieur à 5 dans la plupart des cas.
+        </div>
+      </div>
        
                     
                    </div>
@@ -228,7 +233,7 @@ Ensemble des données reliées par des liens hypertextes, sur Internet
              </div>
      
            </div>
-         </section> -->
+         </section> 
          <!-- End Features Section -->
     <!-- End Résumé Section -->
 
